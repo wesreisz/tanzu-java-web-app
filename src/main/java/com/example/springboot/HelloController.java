@@ -8,7 +8,7 @@ public class HelloController {
 
 	@RequestMapping("/")
 	public String index() {
-		return "Greetings from Spring Boot + Tanzu + working across a run/build cluster!";
+		return "Greetings from Spring Boot + Tanzu + Hello Multi-Cluster World!";
 	}
 
 }
